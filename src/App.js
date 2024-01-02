@@ -1,16 +1,12 @@
 import React from "react";
-import styled from "@emotion/styled";
-
-const Wrapper = styled.div`
-  padding: 20px;
-`;
+import Sheet from "@mui/joy/Sheet";
 
 function App() {
   return (
-    <Wrapper>
+    <Sheet variant="outlined">
       <h1>React Starterkit</h1>
       <p>hello</p>
-    </Wrapper>
+    </Sheet>
   );
 }
 
