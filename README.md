@@ -1,21 +1,21 @@
 # React Starter
 
-[![Dependabot badge](https://flat.badgen.net/dependabot/wbkd/react-starter?icon=dependabot)](https://dependabot.com/)
-
-A minimal starting point for interactive applications that we build at [webkid](https://webkid.io). The boilerplate already includes some basic components as well as hooks and utils that we are often using in our projects.
+A minimal starting point for interactive applications or one-pagers.
 
 The starterkit is based on these libraries:
 
-- [react](https://facebook.github.io/react/)
-- [easy-peasy](https://easy-peasy.now.sh/)
+- [react](https://react.dev/)
+- [joy-ui](https://mui.com/joy-ui/getting-started/)
 - [emotion](https://emotion.sh/docs/styled)
+
+It is based on [a react starter by wbkd](https://github.com/wbkd/react-starter)
 
 ## Getting started
 
-**[Create a new Github repository with the template](https://github.com/wbkd/react-starter/generate)** or clone the repo:
+**[Create a new Github repository with the template](https://github.com/investigativedata/joy-starter/generate)** or clone the repo:
 
 ```sh
-git clone git@github.com:wbkd/react-starter.git && cd react-starter
+git clone git@github.com:investigativedata/joy-starter.git && cd joy-starter
 ```
 
 then install the dependencies via [npm](https://npmjs.org):

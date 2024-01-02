@@ -1,17 +1,14 @@
 {
-  "name": "react-starter",
-  "config": {
-    "appname": "my-app-name"
-  },
-  "version": "7.0.0",
-  "description": "lightweight react starterkit including webpack, unistore, styled components",
+  "name": "joy-starter",
+  "version": "8.0.0",
+  "description": "lightweight react starterkit including webpack, joy ui",
   "scripts": {
     "start": "webpack serve --config webpack/webpack.config.dev.js",
     "build": "cross-env BABEL_ENV=production webpack --config webpack/webpack.config.prod.js && npm run zip",
     "zip": "zip -r build/build.zip build"
   },
   "repository": {
-    "url": "git@github.com:wbkd/react-starter.git",
+    "url": "git@github.com:investigativedata/joy-starter.git",
     "type": "git"
   },
   "browserslist": "> 0.25%, ie 11",
